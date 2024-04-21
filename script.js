@@ -1,6 +1,10 @@
+// funcitonality for the hamburger menu
+
 const hamburger = document.querySelector('.hamburger');
 const navLink = document.querySelector('.nav__link');
 
 hamburger.addEventListener('click', () => {
   navLink.classList.toggle('hide');
 });
+
+// End hamburger menu

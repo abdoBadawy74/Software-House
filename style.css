@@ -11,6 +11,8 @@ a {
   text-decoration: none;
 }
 /* End Global Rules */
+
+/* Start Navbar  */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -92,3 +94,5 @@ a {
     display: none;
   }
 }
+
+/* End Navbar  */
