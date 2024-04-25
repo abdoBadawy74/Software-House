@@ -263,8 +263,11 @@ a {
 .services .slider-bults .bult.selected {
   background-color: #f76680;
 }
+
 .slider-index {
   display: flex;
+
+
   align-items: center;
   position: absolute;
   right: 10px;
