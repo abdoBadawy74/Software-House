@@ -311,6 +311,20 @@ a {
 /* Start Trust Section */
 .trust {
   padding: 40px 20px;
+  overflow: hidden;
+  position: relative;
+}
+.trust .ellipse {
+  position: absolute;
+  top: -40px;
+  left: 30%;
+  background: linear-gradient(to right, #6675f7, #57007b);
+  border-radius: 50%;
+}
+.trust .ellipse-bottom {
+  top: auto;
+  bottom: -40px;
+  left: 70%;
 }
 .trust .contianer {
   margin-top: 50px;
@@ -413,18 +427,18 @@ a {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  transition: 0.3s
+  transition: 0.3s;
 }
 
 .trust .foot .arr:hover {
-  background:  #7b05ad;
+  background: #7b05ad;
 }
-.trust .foot .arr:first-child{
+.trust .foot .arr:first-child {
   background-color: #fff;
   color: #57007b;
-  border:1px solid #57007b;
+  border: 1px solid #57007b;
 }
-.trust .foot .arr:first-child:hover{
+.trust .foot .arr:first-child:hover {
   background-color: #57007b;
   color: #fff;
 }
