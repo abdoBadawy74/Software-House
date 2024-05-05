@@ -41,10 +41,10 @@ document.addEventListener("DOMContentLoaded", function() {
   
     // Update index and length elements
     function updateIndexAndLength() {
-      indexElement.textContent = "0"+(currentIndex + 1); // Adding 1 to start from 1 instead of 0
+      indexElement.textContent = "0"+(currentIndex); // Adding 1 to start from 1 instead of 0
       lengthElement.textContent = "0"+maxLength;
       if (currentIndex === 0) {
-        lineElement.style.width = "10%"; // Set width to 0 if currentIndex is 0
+        lineElement.style.width = "0%"; // Set width to 0 if currentIndex is 0
       } else {
         lineElement.style.width = `${(currentIndex / maxLength) * 100}%`;
       }
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Click event listener for bullets
     bullets.forEach((bullet, index) => {
       bullet.addEventListener("click", () => {
-        currentIndex = index;
+        currentIndex = index+1;
         updateIndexAndLength();
       });
     });

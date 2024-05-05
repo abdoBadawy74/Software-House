@@ -5,7 +5,7 @@
   padding: 0;
 }
 body {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 a {
   text-decoration: none;
@@ -267,7 +267,6 @@ a {
 .slider-index {
   display: flex;
 
-
   align-items: center;
   position: absolute;
   right: 10px;
@@ -308,6 +307,128 @@ a {
 }
 
 /* End Services Section */
+
+/* Start Trust Section */
+.trust {
+  padding: 40px 20px;
+}
+.trust .contianer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: #fff;
+}
+.trust .contianer .text {
+  width: 450px;
+}
+.trust .contianer .line {
+  width: 69px;
+  height: 5px;
+  margin: 5px 0;
+  background-image: linear-gradient(to right, #de4396, #0d1c9f 140%);
+}
+.trust .contianer .text h2 {
+  font-size: 25px;
+  font-weight: normal;
+  font-family: "Inter", sans-serif;
+  margin: 15px 0;
+}
+.trust .contianer .text h2 span {
+  font-weight: 700;
+  font-size: 26px;
+  display: block;
+}
+.trust .contianer .text .desc {
+  font-size: 14px;
+  color: #718096;
+  margin: 15px 0;
+}
+.trust .contianer .text .desc span {
+  color: #de4396;
+}
+.trust .contianer .text a {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #6675f7, #57007b);
+  color: white;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.trust .contianer .vid {
+  width: 450px;
+  height: 300px;
+  border-radius: 20px;
+  position: relative;
+  background-image: url("./images/video.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.trust .contianer .vid svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.trust .contianer .foot {
+  width: 100%;
+  padding-left: 65px;
+  position: relative;
+}
+.trust .foot p {
+  font-size: 24px;
+  margin: 10px 0;
+  font-family: "Inter", sans-serif;
+}
+.trust .foot p span {
+  font-weight: 600;
+  font-size: 24px;
+  display: block;
+}
+.trust .foot .arrs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  position: absolute;
+  bottom: 0;
+  right: 70px;
+  gap: 10px;
+}
+.trust .foot .arr {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #57007b;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s
+}
+
+.trust .foot .arr:hover {
+  background:  #7b05ad;
+}
+.trust .foot .arr:first-child{
+  background-color: #fff;
+  color: #57007b;
+  border:1px solid #57007b;
+}
+.trust .foot .arr:first-child:hover{
+  background-color: #57007b;
+  color: #fff;
+}
+/* End Trust Section */
 
 /* Keyframes */
 @keyframes upDown {
