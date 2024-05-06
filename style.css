@@ -444,6 +444,32 @@ a {
 }
 /* End Trust Section */
 
+/* Start Sponser Section */
+.sponser-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f7f7fa;
+}
+.sponser-content .sponser-logo {
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+.sponser-content .sponser-logo img {
+  width: 200px;
+  object-fit: cover;
+}
+
+/* End Sponser Section */
+
 /* Keyframes */
 @keyframes upDown {
   0% {
