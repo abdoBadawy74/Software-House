@@ -339,7 +339,7 @@ a {
 .trust .contianer .text {
   width: 450px;
 }
-.trust .contianer .line {
+.line-comp {
   width: 69px;
   height: 5px;
   margin: 5px 0;
@@ -469,6 +469,104 @@ a {
 }
 
 /* End Sponser Section */
+
+/* Start Reveiws Section */
+.reviews {
+  margin: 50px 0;
+}
+.reviews .line-comp {
+  margin: 15px auto;
+}
+.reviews h2 {
+  font-weight: normal;
+  text-align: center;
+  margin: 10px auto;
+}
+.reviews h2 span {
+  display: block;
+  font-weight: 600;
+}
+.reviews .slider {
+  overflow: hidden;
+  position: relative;
+}
+
+.reviews .slides {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  flex: 0 0 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.reviews .slide .text {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+}
+.reviews .slide .text svg {
+  position: absolute;
+}
+.reviews .slide .text svg:first-child {
+  top: -20px;
+  left: -50px;
+}
+.reviews .slide .text svg:last-child {
+  bottom: -20px;
+  right: -30px;
+}
+.reviews .slide p {
+  color: #718096;
+  font-size: 18px;
+  line-height: 30px;
+}
+.reviews .slide .user {
+  margin: 30px auto;
+  width: fit-content;
+}
+.reviews .user img {
+  border-radius: 50%;
+  margin: 10px 0;
+}
+.reviews .user i {
+  color: orange;
+}
+.reviews .user h3 {
+  color: #57007b;
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+.reviews .user p {
+  color: #000;
+  font-size: 14px;
+  text-align: center;
+}
+
+.slider-nav button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border: 1px solid #57007b;
+  color: #57007b;
+  padding: 10px;
+  border-radius: 6px;
+  left: 50px;
+  cursor: pointer;
+}
+.slider-nav button:last-child{
+  left: auto;
+  right: 50px;
+}
+.slider-nav button:hover{
+  transition: 0.3s;
+  background-color: #57007b;
+  color: #fff;
+}
+
+/* End Reveiws Section */
 
 /* Keyframes */
 @keyframes upDown {
