@@ -571,6 +571,27 @@ a {
 .case-study {
   background-color: #f7f7fa;
   padding: 30px;
+  position: relative;
+}
+.case-study svg {
+  position: absolute;
+}
+.case-study svg:first-child {
+  top: -120px;
+  left: 10%;
+}
+.case-study svg:nth-child(2) {
+  right: 10%;
+  top: -130px;
+}
+.case-study .circle {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #F76680, #57007B);
+  position: absolute;
+  left: 30%;
+  top: 75px;
 }
 .case-study .line-comp {
   margin: 30px auto 0 auto;
@@ -586,7 +607,7 @@ a {
 }
 .case-study .box {
   width: 85%;
-  margin: 10px auto;
+  margin: 20px auto;
   border: 1px solid #e7daed;
   background-color: #f1f2ff;
   border-radius: 30px;
@@ -601,7 +622,7 @@ a {
 }
 .case-study .box .case-img {
   width: 50%;
-  height: 330px;
+  height: 320px;
   background-image: url(./images/case1.jpeg);
   background-size: cover;
   background-position: center;
@@ -628,6 +649,7 @@ a {
 }
 .case-study .box .text a {
   display: block;
+  margin-top: 30px;
   text-align: right;
   background-image: linear-gradient(to right, #f76680, #57007b);
   -webkit-background-clip: text;
