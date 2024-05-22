@@ -867,6 +867,7 @@ a {
   padding: 40px 20px;
   position: relative;
   text-align: center;
+  border-bottom: 1px solid #e7daed;
 }
 .stack .line-comp {
   margin: 15px auto;
@@ -917,6 +918,74 @@ a {
   display: block;
 }
 /* End Stack Section */
+
+/* Start Developement Section */
+
+.developement {
+  padding: 40px 20px;
+  position: relative;
+  text-align: center;
+}
+.developement .line-comp {
+  margin: 15px auto;
+}
+.developement h2 {
+  font-weight: normal;
+  margin: 10px auto;
+}
+.developement h2 span {
+  display: block;
+  font-weight: 600;
+}
+.developement .row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 10px auto;
+}
+.developement .row:last-child{
+  justify-content: flex-end;
+margin-top: 30px;
+}
+.developement .box {
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 27%;
+  height: 170px;
+  text-align: justify;
+}
+.developement .box h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.developement .box h3 span {
+  background: linear-gradient(to bottom, #f76680, #57007b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.developement .box p {
+  color: #4a5568;
+  font-size: 14px;
+  margin: 10px 0;
+  line-height: 22px;
+}
+.developement .progress{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.developement .progress span{
+  flex: 1;
+  height: 2px;
+  background: linear-gradient(to bottom, #f76680, #57007b);
+}
 
 /* Keyframes */
 @keyframes upDown {
