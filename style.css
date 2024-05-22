@@ -658,11 +658,138 @@ a {
 }
 /* End CaseStudy Section */
 
+/* Start Way Section */
+
+.way {
+  padding: 40px 20px;
+  position: relative;
+}
+.way .line-comp {
+  margin: 15px auto;
+}
+.way h2 {
+  font-weight: normal;
+  margin: 10px auto;
+  text-align: center;
+}
+.way h2 span {
+  display: block;
+  font-weight: 600;
+}
+.way .way-content {
+  margin-top: 40px;
+}
+.way .box {
+  width: 90%;
+  gap: 50px;
+  margin: 50px auto;
+  display: flex;
+}
+.way .box:nth-child(2) {
+  flex-direction: row-reverse;
+}
+.way .box .text {
+  width: 500px;
+  padding: 20px;
+}
+.way .box .text h4 {
+  font-size: 25px;
+  font-weight: 400px;
+  margin: 20px 0;
+}
+.way .box .text p {
+  color: #4a5568;
+  margin: 20px 0;
+  line-height: 24px;
+}
+
+.way .box .text p span {
+  background: linear-gradient(to right, #f76680, #57007b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.way .box .text p:nth-child(4) {
+  background: linear-gradient(to right, #f76680, #57007b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-style: italic;
+  line-height: 30px;
+  width: 95%;
+  padding: 5px 0 0 15px;
+  margin-bottom: 20px;
+  border-left-style: solid;
+  border-width: 2px;
+  border-image: linear-gradient(to bottom, #f76680, #57007b) 1;
+}
+.way .text .person {
+  display: flex;
+  gap: 15px;
+}
+.way .text .person img {
+  border-radius: 50%;
+}
+.way .text .person h3 {
+  color: #1a202c;
+  font-size: 16px;
+  font-weight: 400;
+}
+.way .text .person p {
+  color: #4a5568;
+  font-size: 14px;
+  margin: 0;
+  font-style: italic;
+  line-height: 20px;
+}
+.way .box .image {
+  width: 500px;
+  height: 350px;
+  padding: 10px;
+  border-radius: 10px;
+  background-image: url(./images/way1.jpeg);
+  background-size: cover;
+  position: relative;
+}
+.way .box:nth-child(2) .image {
+  background-image: url(./images/way2.jpeg);
+}
+.way .box:nth-child(3) .image {
+  background-image: url(./images/way3.jpeg);
+}
+
+.way .box .image svg {
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  z-index: -1;
+}
+.way .box .image svg:last-child {
+  top: auto;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.way .box:nth-child(2) .image svg {
+  top: auto;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.way .box:nth-child(2) .image svg:last-child {
+  top: -12px;
+  left: auto;
+  right: -25px;
+}
+
+/* End Way Section  */
+
 /* Start Apporoach Section */
 .apporoach {
   padding: 40px 20px;
   position: relative;
   text-align: center;
+  background-color: #f7f7fa;
 }
 .apporoach .line-comp {
   margin: 15px auto;
