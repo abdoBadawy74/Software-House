@@ -862,6 +862,62 @@ a {
 }
 /* End Apporoach Section */
 
+/* Start Stack Section */
+.stack {
+  padding: 40px 20px;
+  position: relative;
+  text-align: center;
+}
+.stack .line-comp {
+  margin: 15px auto;
+}
+.stack h2 {
+  font-weight: normal;
+  margin: 10px auto;
+}
+.stack h2 span {
+  display: block;
+  font-weight: 600;
+}
+.stack .filter {
+  width: 70%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.stack .filter button {
+  padding: 10px 20px;
+  background: #f7f7fa;
+  color: #4a5568;
+  border: 1px solid #cbd5e0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.filter button.active {
+  background: linear-gradient(to right, #6675f7, #57007b);
+  color: white;
+}
+.stack .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.content img {
+  width: 250px;
+  height: 150px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  display: none;
+}
+.content img.show {
+  display: block;
+}
+/* End Stack Section */
+
 /* Keyframes */
 @keyframes upDown {
   0% {

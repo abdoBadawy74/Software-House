@@ -100,4 +100,33 @@ document.addEventListener("DOMContentLoaded", function () {
   setInterval(nextSlide, 5000);
 });
 
-// Start Reviews Slider
+// End Reviews Slider
+
+// Start Filter Gallery
+document.addEventListener('DOMContentLoaded', () => {
+  const buttons = document.querySelectorAll('.filter button');
+  const images = document.querySelectorAll('.content img');
+
+  function filterImages(category) {
+    images.forEach(img => {
+      if (img.dataset.category === category || category === 'All') {
+        img.classList.add('show');
+      } else {
+        img.classList.remove('show');
+      }
+    });
+  }
+
+  buttons.forEach(button => {
+    button.addEventListener('click', () => {
+      buttons.forEach(btn => btn.classList.remove('active'));
+      button.classList.add('active');
+      filterImages(button.dataset.category);
+    });
+  });
+
+  // Initial display
+  filterImages('Backend');
+});
+
+// End Filter Gallery
