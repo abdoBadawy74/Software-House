@@ -388,7 +388,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
 }
-.trust .contianer .vid svg {
+.trust .contianer .vid .video {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -515,14 +515,14 @@ a {
   width: 60%;
   margin: 0 auto;
 }
-.reviews .slide .text svg {
+.reviews .slide .text .svg {
   position: absolute;
 }
-.reviews .slide .text svg:first-child {
+.reviews .slide .text .svg:first-child {
   top: -20px;
   left: -50px;
 }
-.reviews .slide .text svg:last-child {
+.reviews .slide .text .svg:last-child {
   bottom: -20px;
   right: -30px;
 }
@@ -583,19 +583,19 @@ a {
   padding: 30px;
   position: relative;
 }
-.case-study svg {
+.case-study .svg {
   position: absolute;
 }
 @media screen and (max-width: 950px) {
-  .case-study svg {
+  .case-study .svg {
     display: none;
   }
 }
-.case-study svg:first-child {
+.case-study .svg:first-child {
   top: -120px;
   left: 10%;
 }
-.case-study svg:nth-child(2) {
+.case-study .svg:nth-child(2) {
   right: 10%;
   top: -130px;
 }
@@ -808,25 +808,25 @@ a {
   background-image: url(./images/way3.jpeg);
 }
 
-.way .box .image svg {
+.way .box .image .svg {
   position: absolute;
   top: -25px;
   left: -25px;
   z-index: -1;
 }
-.way .box .image svg:last-child {
+.way .box .image .svg:last-child {
   top: auto;
   bottom: -15px;
   left: 50%;
   transform: translateX(-50%);
 }
-.way .box:nth-child(2) .image svg {
+.way .box:nth-child(2) .image .svg {
   top: auto;
   bottom: -30px;
   left: 50%;
   transform: translateX(-50%);
 }
-.way .box:nth-child(2) .image svg:last-child {
+.way .box:nth-child(2) .image .svg:last-child {
   top: -12px;
   left: auto;
   right: -25px;
@@ -1164,13 +1164,13 @@ a {
   cursor: pointer;
   position: relative;
 }
-.best .btn svg {
+.best .btn .svg {
   position: absolute;
   top: -50px;
   left: 50%;
   transform: translateX(-50%);
 }
-.best .btn svg:last-child {
+.best .btn .svg:last-child {
   top: auto;
   bottom: -50px;
 }
