@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.querySelector(".prev").addEventListener("click", prevSlide);
 
   // Change slide every 5 seconds
-  setInterval(nextSlide, 5000);
+  // setInterval(nextSlide, 5000);
 });
 
 // End Reviews Slider
