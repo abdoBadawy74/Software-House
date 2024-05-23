@@ -39,12 +39,12 @@ To run this project locally, follow these steps:
 
 1. Clone the repository to your local machine:
     ```sh
-    git clone https://github.com/yourusername/software-company-website.git
+    git clone https://github.com/abdoBadawy74/Software-House
     ```
 
 2. Navigate to the project directory:
     ```sh
-    cd software-company-website
+    cd Software-House
     ```
 
 3. Open `index.html` in your preferred web browser:
