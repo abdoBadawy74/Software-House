@@ -946,9 +946,8 @@ a {
   width: 90%;
   margin: 10px auto;
 }
-.developement .row:last-child{
+.developement .row:last-child {
   justify-content: flex-end;
-margin-top: 30px;
 }
 .developement .box {
   padding: 10px 20px;
@@ -957,6 +956,24 @@ margin-top: 30px;
   width: 27%;
   height: 170px;
   text-align: justify;
+  position: relative;
+}
+.developement .box::after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 20px;
+  background: linear-gradient(to bottom, #f76680, #57007b);
+  transition: 0.3s;
+  border-radius: 10px;
+  z-index: 44;
+}
+.developement .row:last-child .box::after {
+  bottom: auto;
+  top: -30px;
 }
 .developement .box h3 {
   font-size: 20px;
@@ -974,14 +991,14 @@ margin-top: 30px;
   margin: 10px 0;
   line-height: 22px;
 }
-.developement .progress{
+.developement .progress {
   width: 90%;
   margin: 0 auto;
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.developement .progress span{
+.developement .progress span {
   flex: 1;
   height: 2px;
   background: linear-gradient(to bottom, #f76680, #57007b);
