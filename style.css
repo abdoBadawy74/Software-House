@@ -1040,13 +1040,13 @@ a {
 .resources .box img {
   width: 100%;
   height: 190px;
-  
 }
 .resources .box p {
   color: #4a5568;
   font-size: 14px;
-  margin: 10px 0;
+  margin: 10px;
   line-height: 22px;
+  text-align: justify;
 }
 .resources .box a {
   display: block;
@@ -1058,10 +1058,44 @@ a {
   color: transparent;
 }
 
-
-
 /* End Recources Section */
 
+/* Start Best Developers Section */
+.best {
+  padding: 40px 20px;
+  width: 90%;
+  border-radius: 20px;
+  margin: 0 auto 40px;
+  background: linear-gradient(to right, #f1f1f5, #e4ecf7);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.best h3 {
+  font-size: 30px;
+  line-height: 50px;
+  width: 40%;
+}
+.best .btn {
+  padding: 10px 20px;
+  background: linear-gradient(to right, #ffc656, #f16063);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+.best .btn svg {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.best .btn svg:last-child {
+  top: auto;
+  bottom: -50px;
+}
+
+/* End Best Developers Section */
 /* Keyframes */
 @keyframes upDown {
   0% {
